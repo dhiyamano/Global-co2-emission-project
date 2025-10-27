@@ -5,7 +5,6 @@
 This project analyzes and visualizes **global CO₂ emissions** across major sectors — **Energy, Transport, and Industry** — to identify top polluting countries, emission trends over time, and emission efficiency relative to population and GDP.  
 The goal is to provide **data-driven insights** to support sustainable development and climate policy decisions.
 
----
 
 ## Project Overview
 - **Dataset:** Multi-year CO₂ emissions data by country and sector  
@@ -14,8 +13,6 @@ The goal is to provide **data-driven insights** to support sustainable developme
   - Cleaned and processed CSV files for visualization  
   - Interactive Tableau dashboard  
   - PDF Policy Brief summarizing top polluters  
-
----
 
 ## Project Workflow
 
@@ -54,12 +51,6 @@ Key visuals:
 -  **CO₂ per GDP Chart:** Emission efficiency by economy  
 -  **Filters/Slicers:** Year, Region, and Sector  
 
-### **5️ Report Generation**
-A concise **Policy Brief PDF** (`policy_brief_top_polluters_2022.pdf`) was generated using Python’s `reportlab` library.  
-It includes:
-- Top 10 polluting countries (Total & Per Capita)  
-- Sectoral insights  
-- Policy recommendations for emission reduction  
 
 ## Tools & Technologies
  **Python (pandas, numpy, matplotlib, reportlab)** | Data cleaning, transformation, and report generation 
